@@ -1,0 +1,22 @@
+const stockZapatillas = [
+    {id: 1, marca: "Jordan Delta 3 Low", precio: 55000, img: "./img/jordan1.webp", cantidad: 1},
+    {id: 2, marca: "Air Jordan 5 Mix", precio: 45000, img: "./img/jordan2.webp", cantidad: 1},
+    {id: 3, marca: "Jordan Air 200E", precio: 40000, img: "./img/jordan3.webp", cantidad: 1},
+    {id: 4, marca: "Jordan Legacy 312 Low", precio: 50000, img: "./img/jordan4.webp", cantidad: 1},
+    {id: 5, marca: "Air Jordan 1 KO", precio: 45000, img: "./img/jordan5.webp", cantidad: 1},
+    {id: 6, marca: "Air Jordan 11", precio: 55000, img: "./img/jordan6.webp", cantidad: 1},
+    {id: 7, marca: "Air Jordan XXXVII", precio: 45000, img: "./img/jordan7.webp", cantidad: 1},
+    {id: 8, marca: "Jumpman Two Trey", precio: 65000, img: "./img/jordan8.webp", cantidad: 1},
+    {id: 9, marca: "Jordan Series Mind", precio: 55000, img: "./img/jordan9.webp", cantidad: 1},
+    {id: 10, marca: "Air Jordan 12", precio: 60000, img: "./img/jordan10.webp", cantidad: 1},
+    {id: 11, marca: "Air Jordan Max", precio: 65000, img: "./img/jordan11.webp", cantidad: 1},
+    {id: 12, marca: "Air Jordan Zoom", precio: 45000, img: "./img/jordan12.webp", cantidad: 1},
+    {id: 13, marca: "Air Jordan White Zone", precio: 60000, img: "./img/jordan13.webp", cantidad: 1},
+    {id: 14, marca: "Air Jordan 17", precio: 55000, img: "./img/jordan14.webp", cantidad: 1},
+    {id: 15, marca: "Air Jordan 8 Retro", precio: 65000, img: "./img/jordan15.webp", cantidad: 1},
+    {id: 16, marca: "Air Jordan Delta Black", precio: 50000, img: "./img/jordan16.webp", cantidad: 1},
+    {id: 17, marca: "Air Jordan Delta Mid", precio: 50000, img: "./img/jordan17.webp", cantidad: 1},
+    {id: 18, marca: "Air Jordan 13 Retro", precio: 60000, img: "./img/jordan18.webp", cantidad: 1},
+    {id: 19, marca: "Air Jordan 1 Retro High", precio: 55000, img: "./img/jordan19.webp", cantidad: 1},
+    {id: 20, marca: "Air Jordan 11 W&R", precio: 70000, img: "./img/jordan20.webp", cantidad: 1}
+];
