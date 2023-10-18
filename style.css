@@ -12,6 +12,21 @@
 }
 
 /* ESTILOS GENERALES */
+#finalizarCompra {
+    font-family: 'edo';
+    background-color: rgb(121, 121, 97); 
+    color: rgb(251, 249, 249); 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 15px auto; 
+  }
+  
+  #finalizarCompra:hover {
+    background-color: #e6c5a7; 
+  }
 
 .barra {
     display: flex;

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script
+      src="https://kit.fontawesome.com/5fb0dba01d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form id="myForm" action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Dirección de envío</h3>
+
+                <div class="inputBox">
+                    <span>Nombre y apellido:</span>
+                    <input type="text" placeholder="Raly Barrionuevo">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>Dirección :</span>
+                    <input type="text" placeholder="Localidad">
+                </div>
+                <div class="inputBox">
+                    <span>Ciudad :</span>
+                    <input type="text" placeholder="Buenos Aires">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>País :</span>
+                        <input type="text" placeholder="Argentina">
+                    </div>
+                    <div class="inputBox">
+                        <span>Código postal :</span>
+                        <input type="text" placeholder="1712">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pago</h3>
+
+                <div class="inputBox">
+                    <span>Tarjetas aceptadas :</span>
+                    <img src="./img/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Nombre en tarjeta :</span>
+                    <input type="text" placeholder="Sr. Raly Barrionuevo">
+                </div>
+                <div class="inputBox">
+                    <span>Número de tarjeta :</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>Exp mes :</span>
+                    <input type="text" placeholder="Abril">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Exp año :</span>
+                        <input type="number" placeholder="2024">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Proceed to Checkout" class="submit-btn" id="checkout-btn">
+
+
+    </form>
+    <div id="success-message" style="display: none;">
+        Compra exitosa. Gracias por tu pedido.
+    </div>
+
+    <!-- Agrega un div para mostrar el mensaje de compra exitosa y dale un id "success-message" -->
+    <div id="success-message" style="display: none;">
+        Compra exitosa. Gracias por tu pedido.
+    </div>
+
+</div>    
+
+<script src="./js/form.js"></script>
+
+</body>
+</html>

@@ -104,3 +104,35 @@ const carritoContador = () => {
 }
 
 carritoContador();
+const finalizarCompraButton = document.getElementById("finalizarCompra");
+
+finalizarCompraButton.addEventListener("click", () => {
+    // Aquí puedes agregar el código para finalizar la compra
+    // Puedes utilizar SweetAlert2 u otra forma de confirmación
+    // antes de realizar la compra.
+
+    Swal.fire({
+        title: '¿Desea finalizar la compra?',
+        text: 'Esto procesará su pedido y realizará la compra.',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: 'Sí, finalizar compra',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // Lógica para finalizar la compra
+
+            // Puedes vaciar el carrito para que vuelva a cero
+            carrito = [];
+            
+            // También debes actualizar el contador y el localStorage
+            carritoContador();
+            guardarLocalStorage();
+            
+            Swal.fire('¡Compra finalizada!', 'Su pedido ha sido procesado.', 'success');
+        }
+    });
+});
+
+
+
